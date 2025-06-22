@@ -1,4 +1,4 @@
 export interface WorkerResponse{
-    statue: number,
+    status: number,
     message: string
 }

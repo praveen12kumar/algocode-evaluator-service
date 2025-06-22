@@ -16,7 +16,7 @@ export function SampleWorker(queueName:string){
             return true;
         }
     },{
-        connection:redisConnection
+        connection:redisConnection 
     }
     );
 }
