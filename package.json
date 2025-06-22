@@ -25,6 +25,8 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@bull-board/express": "^6.10.1",
+    "@bull-board/ui": "^6.10.1",
     "@types/ioredis": "^4.28.10",
     "bullmq": "^5.55.0",
     "dotenv": "^16.5.0",
