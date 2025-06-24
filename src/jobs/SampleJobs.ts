@@ -13,15 +13,15 @@ export default class SampleJOb implements IJob{
      }
     
      handle = (job?: Job)=>{
-        console.log("Handler of the Job called");
-        console.log(this.payload);
+        // console.log("Handler of the Job called");
+        // console.log(this.payload);
         if(job){
             console.log(job.name, job.id, job.data);
         }
      };
 
      failed = (job?: Job): void=>{
-        console.log("Job failed");
+        //console.log("Job failed");
         if(job){
             console.log(job.id);
         }
